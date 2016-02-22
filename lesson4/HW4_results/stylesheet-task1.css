@@ -1,0 +1,31 @@
+nav {
+    background-color: #a64dff;
+}
+
+.menu-1 ul {
+    list-style-type: none;
+    width: 900px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.menu-1 li {
+   display: inline-block;
+   padding: 11px 17px;
+   color: #fff;
+}
+
+.menu-1 li a {
+    font: 16px impact;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-1 li:hover {
+     background-color: #eeeeee;
+     color: #a0a0a0;
+}
+
+.menu-1 li:hover a {
+    color: #a0a0a0;
+}
