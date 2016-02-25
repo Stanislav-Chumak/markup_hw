@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 nav {
   background-color: #1AA4FF;
 }
@@ -7,8 +12,7 @@ ul {
   text-align: center;
   position: relative;
   padding: 0;
-  margin: 0 auto;
-  width: 900px;
+  width: 100%;
 }
 
 ul li {
@@ -30,20 +34,29 @@ ul li:hover a {
     color: #a0a0a0;
 }
 
-.dropdown-content {
+.select {
   position: absolute;
   display: none;
   top: 100%;
   left: 0;
   background-color: #EEE;
   text-align: center;
+  width: 100%;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content,
+.dropdown1:hover .dropdown-content1,
+.dropdown2:hover .dropdown-content2,
+.dropdown3:hover .dropdown-content3,
+.dropdown4:hover .dropdown-content4,
+.dropdown5:hover .dropdown-content5,
+.dropdown6:hover .dropdown-content6,
+.dropdown7:hover .dropdown-content7,
+.dropdown8:hover .dropdown-content8 {
   display: inline-block;
 }
 
-.dropdown-content a {
+.select a {
   color: #9B9A9A;
   font-size: 12px;
 }
