@@ -10,6 +10,7 @@ a {
 .menu-1 {
     list-style-type: none;
     width: 900px;
+    margin: 0 auto;
 }
 
 .clearfix:after {
